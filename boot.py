@@ -4,11 +4,10 @@ import ubinascii
 import machine
 import micropython
 import network
-
 import esp
-esp.osdebug(None)
-
 import gc
+
+esp.osdebug(None)
 gc.collect()
 
 ssid = 'IoT_Dev'
